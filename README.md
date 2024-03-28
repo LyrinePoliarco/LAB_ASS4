@@ -32,8 +32,10 @@ To use the program, compile and run the `Main.java` class. Follow the prompts to
 
 Enter password: Password123
 Invalid password. You have 2 attempts left.
+
 Enter password: P@ssw0rd
 Invalid password. You have 1 attempts left.
+
 Enter password: password
 Maximum login attempts exceeded.
 
@@ -41,7 +43,9 @@ Maximum login attempts exceeded.
 
 Enter password: lyrine 
 Invalid password. You have 2 attempts left.
+
 Enter password: poliarco
 Invalid password. You have 1 attempts left.
+
 Enter password: password
 Login successful!
