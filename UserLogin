@@ -1,34 +1,32 @@
 import java.util.*;
 
 public class UserLogin {
-    private static final String ValidPassword= "password";
-    private int loginAttempts;
-
-    public UserLogin() {
-        this.loginAttempts = 0;
-    }
-
-    public void login() throws MaxLoginAttemptsExceededException, InvalidPasswordException {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int loginTries = 0;
+
         while (true) {
             try {
                 System.out.print("Enter password: ");
                 String password = scanner.nextLine();
 
-                if (!password.equals(ValidPassword)) {
-                    loginAttempts++;
-                    throw new InvalidPasswordException("Invalid password. You have " + (3 - loginAttempts) + " attempts left.");
+                if (!password.equals("password")) {
+                    loginTries++;
+                    if (loginTries >= 3) {
+                        throw new MaxLoginAttemptsExceededException("Maximum login tries exceeded!");
+                    } else {
+                        throw new InvalidPasswordException("Invalid password! Try again.");
+                    }
+                } else {
+                    System.out.println("Login successful!");
+                    break;
                 }
-
-                System.out.println("Login successful!");
-                break;
             } catch (InvalidPasswordException e) {
                 System.out.println(e.getMessage());
-                if (loginAttempts >= 3) {
-                    throw new MaxLoginAttemptsExceededException("Maximum login attempts exceeded.");
-                }
+            } catch (MaxLoginAttemptsExceededException e) {
+                System.out.println(e.getMessage());
+                break; // Terminate the program if maximum login tries exceeded
             }
         }
-        scanner.close();
     }
 }
