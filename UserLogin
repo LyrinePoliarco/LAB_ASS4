@@ -1,7 +1,7 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class UserLogin {
-    private static final String VALID_PASSWORD = "password";
+    private static final String ValidPassword= "password";
     private int loginAttempts;
 
     public UserLogin() {
@@ -15,7 +15,7 @@ public class UserLogin {
                 System.out.print("Enter password: ");
                 String password = scanner.nextLine();
 
-                if (!password.equals(VALID_PASSWORD)) {
+                if (!password.equals(ValidPassword)) {
                     loginAttempts++;
                     throw new InvalidPasswordException("Invalid password. You have " + (3 - loginAttempts) + " attempts left.");
                 }
