@@ -19,8 +19,8 @@ Create a simple user login system that allows users to log in with a predefined 
 
 ### Implementation:
 
-- The Java code provided in `LoginSystem.java` demonstrates a solution to the problem statement.
-- Two user-defined exceptions, `MaxLoginTriesException` and `InvalidPasswordException`, are created to handle maximum login attempts and invalid password scenarios, respectively.
+- The Java code provided in `UserLogin.java` demonstrates a solution to the problem statement.
+- Two user-defined exceptions, `MaxLoginAttemptsExceededException` and `InvalidPasswordException`, are created to handle maximum login attempts and invalid password scenarios, respectively.
 - The program utilizes a `while(true)` loop to continuously prompt the user for a password until a correct one is provided or the maximum login attempts are exceeded.
 
 ### Instructions:
