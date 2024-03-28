@@ -29,7 +29,7 @@ The valid password for login is set to "password".
 To use the program, compile and run the `Main.java` class. Follow the prompts to enter the password and observe the exception handling for maximum login attempts and invalid passwords.
 
 ## 1st SAMPLE OUTPUT 
-
+```java
 Enter password: Password123
 Invalid password. You have 2 attempts left.
 
