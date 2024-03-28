@@ -39,8 +39,9 @@ Invalid password. You have 1 attempts left.
 Enter password: password
 Maximum login attempts exceeded.
 
-## 2nd SAMPLE OUTPUT
 
+## 2nd SAMPLE OUTPUT
+```java
 Enter password: lyrine 
 Invalid password. You have 2 attempts left.
 
