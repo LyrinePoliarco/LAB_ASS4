@@ -38,7 +38,7 @@ Invalid password. You have 1 attempts left.
 
 Enter password: password
 Maximum login attempts exceeded.
-
+```
 
 ## 2nd SAMPLE OUTPUT
 ```java
@@ -50,3 +50,4 @@ Invalid password. You have 1 attempts left.
 
 Enter password: password
 Login successful!
+```
