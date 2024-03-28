@@ -11,20 +11,6 @@ The task is to create two custom exceptions to handle the following login-relate
 
 The valid password for login is set to "password".
 
-## Solution Steps
-
-To solve the problem, follow these steps:
-
-1. Create two custom exceptions in Java:
-   - `MaxLoginAttemptsExceededException.java` to handle maximum login attempts exceeded.
-   - `InvalidPasswordException.java` to handle invalid passwords.
-2. Implement the `UserLogin.java` class to manage the user login process and validate the password.
-3. Create a main class (`Main.java`) to prompt the user for input and handle exceptions thrown during the login process.
-4. Thoroughly test the program to ensure it handles all specified conditions correctly.
-5. Create a GitHub repository for the project.
-6. Upload the Java files to the repository and add a `readMe.md` file with this description.
-7. Commit and push your changes to GitHub.
-8. Share the repository's URL link as the solution to the assignment.
 
 ## Repository Structure
 
