@@ -27,3 +27,21 @@ The valid password for login is set to "password".
 ## Usage
 
 To use the program, compile and run the `Main.java` class. Follow the prompts to enter the password and observe the exception handling for maximum login attempts and invalid passwords.
+
+## 1st SAMPLE OUTPUT 
+
+Enter password: Password123
+Invalid password. You have 2 attempts left.
+Enter password: P@ssw0rd
+Invalid password. You have 1 attempts left.
+Enter password: password
+Maximum login attempts exceeded.
+
+## 2nd SAMPLE OUTPUT
+
+Enter password: lyrine 
+Invalid password. You have 2 attempts left.
+Enter password: poliarco
+Invalid password. You have 1 attempts left.
+Enter password: password
+Login successful!
