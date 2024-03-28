@@ -1,7 +1,3 @@
-Sure, here's a description you can include in your `readMe.md` file:
-
----
-
 # User Login Exceptions
 
 This project implements a simple user login system in Java, demonstrating the use of custom exceptions to handle login-related errors. The program allows users to attempt login with a predefined password and limits the number of login attempts to three. If the user exceeds the maximum allowed attempts or enters an invalid password, custom exceptions are thrown to handle these scenarios.
@@ -45,7 +41,3 @@ To solve the problem, follow these steps:
 ## Usage
 
 To use the program, compile and run the `Main.java` class. Follow the prompts to enter the password and observe the exception handling for maximum login attempts and invalid passwords.
-
----
-
-Feel free to customize the description further to fit your project and preferences. Let me know if you need any more assistance!
